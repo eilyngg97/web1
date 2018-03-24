@@ -1,0 +1,354 @@
+body{
+	background-color: #ececec;
+}
+#menu{
+display: inline-block;
+width:100%;
+margin: 0px;
+height: 35px;
+}
+
+#menu ul{
+list-style-type:none;
+border-left:0px solid #696969;
+text-transform: uppercase;
+text-align:right; /* enter "left", "right", or "center" to orient the menu accordingly */
+}
+
+#menu ul li{
+display:inline;
+padding: 3px; /* spacing between each menu item */
+border-right:0px solid #696969;
+color: gray;
+}
+
+.left{
+	padding-left: 12%;
+	float:left;
+}
+
+#menu ul li:hover{
+background-color: #7e1432;
+color: white;
+}
+
+#menu ul li a{
+position:relative;
+padding-bottom:8px; /*spacing between each menu item and arrow underline beneath it */
+text-decoration:none;
+color: inherit;
+}
+
+
+.contenedor{
+	  width: 66%;
+  padding-top:2%;
+  
+  float: right;
+}
+
+.contenedor_gris{
+  width: 840px;
+  background: #e4e0e0;
+  padding: 25px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+ clear: both;
+  text-align: center;
+  float:right;
+  margin-right: 3%;
+}
+
+.contenedor_gris h3{
+	margin-top: 0px;
+}
+.cuenta p{
+	padding-left: 1000px;
+	background: #7e1432;
+	color: white;
+}
+
+.cuenta a{
+	color: white;
+}
+
+
+.text{
+	clear: both;
+	float: right;
+	padding-right: 9%;
+	padding-top: 0%;
+	font-size: 25px;
+}
+
+.text h5{
+	font-size: 25px;
+}
+
+.color{
+	display: inline-block;
+	color: #86183d;
+	padding-right: 5px;
+	font-size: 25px;
+}
+
+.warning{
+	background: #fb790b;
+	border-color: #fb790b;
+	color: white;
+	float: right;
+	margin-right: 4%;
+	margin-top: 4%;
+}
+h5{
+	display: inline-block;
+
+}
+
+.seccion_footer{
+	width: 100%;
+	height: 180px;
+	padding-bottom: 0px;
+	margin-left: 5%
+	
+}
+
+.articulo_footer{
+	float: left;
+	height: 180px;
+	padding-left: 1%;
+	text-align: left;
+	width: 24%;
+}
+
+
+.articulo_footer a{
+	color: #76787b;
+}
+
+.articulo_footer a:hover{
+	color: black;
+}
+
+
+
+.pie{
+	width: 100%;
+	height: auto;
+	clear: both;
+
+}
+
+.contenedor_principal{
+	width: 100%;
+	height: 80%;
+}
+
+.menu-fijo{
+	margin-left: 5%;
+	margin-top: 3%;
+	padding-right: 2%;
+	width: 25%;
+	display: inline-block;
+	border:1px solid white;
+	background: white;
+}
+
+.menu-fijo img{
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+
+.foto img{
+	padding-left: 30%;
+}
+
+#menu-izq{
+	width: 280px;
+	padding-left: 15%;
+}
+
+#menu-izq ul{
+	list-style-type:none;	
+}
+
+#menu-izq li{
+	border-bottom: 1px solid gray;
+	margin-top: 3%;
+	padding: 4%;
+}
+
+#menu-izq ul li a{
+	font-size: 90%;
+}
+
+.letrawhite a{
+	color: white;
+}
+
+#menu-izq li:hover{
+	padding-left: 2%;
+	border-left: 3px solid #86183d;
+	color: #86183d;
+}
+
+.img-menu-fijo{
+	padding-left: 28%;
+	padding-top: 5%;
+}
+
+.contener-principal{
+	width: 100%;
+	height:380px;
+}
+
+footer article{
+	display: inline-block;
+}
+
+footer h5{
+	display: inline-block;
+	padding-top: 20px;
+}
+
+footer ul li{
+	list-style-type:none;
+}
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	background: #86183d;
+}
+
+.carousel, .carousel-inner{
+  display: inline-block;
+  width: 840px;
+  padding-top:2%;
+  padding-right: 3%;
+  float: right;
+}
+
+.productos{
+	clear: both;
+}
+
+.articulos_productos{
+	float: left;
+	width: 22%;
+	margin: 10px;
+	border: 1px solid white;
+	background: white;
+	padding-bottom: 1%;
+}
+
+.precio{
+	font-size: 100%;
+	color:black;
+	margin-top: 11%;
+	margin-left: 6%;
+}
+
+.articulos_productos p{
+	display: inline-block;
+}
+.producto-titulo{
+	color: #696962;
+	font-size: 80%;
+	margin-left: 6%;
+
+}
+
+.articulos_productos img {
+	width: 100%;
+	height: 200px;
+}
+
+.itemCheck{
+	display: inline-block;
+	color: white;
+}
+
+
+.barra-final{
+	width: 100%;
+	height: 20%;
+	background: #86183d;
+	clear: both;
+}
+
+.barra-final h3{
+	padding-top: 3%;
+	padding-left: 18%;
+	font-size: 22px;
+	color: white;
+	display: inline-block;
+	margin-right: 8%;
+}
+
+#cajaemail{
+	display: inline-block;
+}
+
+.email{
+	width: 280%;
+	height: 35px;
+	border-radius: 20px;
+}
+
+.buscar{
+	width: 400%;
+	height: 35px;
+	border-radius: 20px;
+}
+
+#buscar{
+	padding-right: 35%;
+}
+
+.barra-final p{
+	padding-left: 26%;
+	padding-bottom: 3%;
+	color: white;
+	font-size: 18px;
+	padding-top: 4px;
+	margin-right: 18%;
+	display: inline-block;
+}
+
+.barra1 h3, h4{
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 3%;
+}
+
+.textcaja{
+	display: inline-block;
+	font-size: 10px;
+	padding-top: 2%;
+}
+
+.textcaja p{
+	color: white;
+}
+
+
+.barra1{
+	width: 840px;
+	height: 20%;
+	background: #86183d;
+	clear: both;
+	float: right;
+	margin-right: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.barra1 img{
+	display: inline-block;
+	clear: both;
+	width: 13%;
+	padding-left: 3%;
+	height: 100px;
+}
